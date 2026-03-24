@@ -6,9 +6,13 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "agno>=2.5.9",
+    "ddgs>=9.11.4",
+    "fastapi>=0.135.2",
     "groq>=1.1.1",
     "openai>=2.29.0",
     "python-dotenv>=1.2.2",
+    "sqlalchemy>=2.0.48",
     "tavily-python>=0.7.23",
+    "uvicorn>=0.42.0",
     "yfinance>=1.2.0",
 ]
