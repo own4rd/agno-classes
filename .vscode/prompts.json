@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "prompts": [
+    {
+      "id": "1773947968613-9bc708516eaf78",
+      "name": "patterns",
+      "content": "Factory → Builder → Strategy",
+      "createdAt": "2026-03-19T19:19:28.613Z",
+      "updatedAt": "2026-03-19T19:19:28.613Z",
+      "kind": "prompt"
+    },
+    {
+      "id": "1774355237556-15a8dc307aebb8",
+      "name": "dryrun",
+      "content": "poetry run python manage.py mark_registro_funcional_obsoleto --file \"naturezas.json\"",
+      "createdAt": "2026-03-24T12:27:17.556Z",
+      "updatedAt": "2026-03-24T12:27:17.556Z",
+      "kind": "prompt"
+    }
+  ]
+}

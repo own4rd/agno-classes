@@ -1,5 +1,5 @@
 from agno.agent import Agent
-from agno.tools.tavily import TavilyTools
+from agno.tools.yfinance import YFinanceTools
 from agno.models.groq import Groq
 from dotenv import load_dotenv
 
@@ -7,8 +7,8 @@ load_dotenv()
 
 agent = Agent(
     model=Groq(id="llama-3.3-70b-versatile"),
-    tools=[TavilyTools()],
+    tools=[YFinanceTools()],
     # debug_mode=True
 )
 
-agent.print_response("Use suas ferramentas para procurar a temperatura de hoje em Porto Alegre")
+agent.print_response("Qual a cotação da apple atual?", stream=True)
